@@ -37,7 +37,7 @@ end)
 	
 --// AutoRejoin
 spawn(function()
-    wait(200)
+    wait(80)
     game:GetService("Players").LocalPlayer.Character:Destroy()
 	local x = {}
 	for _, v in ipairs(game:GetService("HttpService"):JSONDecode(game:HttpGetAsync("https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Asc&limit=100")).data) do

@@ -76,7 +76,7 @@ spawn(function()
 loadstring(game:HttpGet("https://pastebin.com/raw/ZNpg7eSz", true))()
 end)
 
-wait(5)
+wait(2)
 
 game:GetService("Players").LocalPlayer.Character.BodyEffects:FindFirstChild("Defense"):Destroy()
 game:GetService("ReplicatedStorage").MainEvent:FireServer("Block", true)
